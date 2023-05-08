@@ -1,0 +1,174 @@
+@media (min-width:320px) and (max-width:768px) {
+    #header {
+        width: 680px;
+    }
+    #header span  a{
+        margin-left: 280px;
+        margin-top: 50px;
+    }
+    #header p{
+        margin: auto;
+    }
+    #about h3{
+   margin-left: 200px;
+        
+    }
+    #about p{
+       margin-left: 150px;
+        width: 400px;
+    }
+    #about .aboutcard{
+        margin-left: 150px;
+        width: 400px;
+    }
+    #about .aboutcard p{
+        margin-left: -5px;
+        text-align: center;
+
+    }
+    #about .aboutcardone{
+        margin-left: 150px;
+        width: 400px;
+    }
+    #about .aboutcardone p{
+        margin-left: -5px;
+        text-align: center;
+    }
+    #about .aboutcardtwo img{
+        display: inline-block;
+ margin-left: 100px;
+    }
+    #about .aboutcardthree{
+        margin-left: 150px;
+        width: 400px;
+    }
+    #about .aboutcardthree p{
+        margin-left: -5px;
+        text-align: center;
+    }
+    #about .aboutcardfour{
+        margin-left: 150px;
+        width: 400px;
+    }
+    #about .aboutcardfour p{
+        margin-left: -5px;
+        text-align: center;
+    }
+    #Portfolio{
+        width: 680px;
+        height: 800px;
+    }
+    #services h3{
+        margin-left: 130px;
+
+    }
+    #services p{
+        width: 90%;
+        margin-left: 100px;
+    }
+    #services .serviceones {
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 50px;
+     
+    }
+    #services .servicetwos img{
+        display: inline-block;
+        margin-left: 300px;
+    }
+    #services .servicethrees{
+        text-align: center;
+        margin-left: 200px;
+        font-size: 30px;
+       
+    }
+    #services .serviceoner{
+        text-align: center;
+        margin-left: 150px;
+    }
+    #services .servicetwor img {
+        display: inline-block;
+        margin-left: 300px;
+    }
+    #services .servicethreer{
+        text-align: center;
+        margin-left: 150px;
+        
+    }
+    #services .serviceone{
+        text-align: center;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+    #services .servicetwo img{
+        display: inline-block;
+        margin-left: 300px;
+       
+    }
+    #services .servicethree{
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 50px;
+    }
+    #blog{
+        width: 680px;
+        height: 900px;
+    }
+    #blog .blogtext{
+        width: 300px;
+        margin-top: -500px;
+        margin-left: 250px;
+        height: 500px;
+    }
+    #blog .blogimg {
+        margin-top: 350px;
+    }
+    #plan .plans{
+        width: 500px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    #clients{
+        width: 680px;
+       
+    }
+    #clients .clientscard{
+        margin-top: 200px;
+        margin-left: 50px;
+   
+    }
+    #team h4{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    #team p{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    #team .teamimg {
+        display: inline-block;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    #our .ourimg{
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+    footer{
+        width: 680px;
+       height: 800px;
+    }
+    footer .footer a{
+        margin-left: 200px;
+        display: inline-block;
+    }
+    #copy{
+        width: 680px;
+        
+    }
+    #copy .copytext{
+        margin-left: 100px;
+        
+    }
+    
+}

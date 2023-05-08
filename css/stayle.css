@@ -1,0 +1,604 @@
+
+/* -----------------------------------------------------------
+Them name : HUNT | Html teamplate 
+Autor : Minhaz uddin 
+Author Ulr : -------------
+Version:1.0
+
+-----------------------------------------------------------------------------
+
+
+*/
+/* --------------------------------------------------------------------------
+
+
+1  header
+2  about
+3  fortfolio
+4  services
+5  
+6  
+7
+8
+9
+10
+11
+12
+13
+
+
+---------------------------------------------------------------------------------
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+ list-style: none;
+}
+:root{
+    --primarycolor:#111111;
+    --secondarycouler:#fec600;
+     --threecouler:#eeeeee;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-size: 14px;
+    font-weight:400;
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--primarycolor);
+
+}
+#header{
+    background-image: url(../img/hadder-bg-img.png);
+    height: 700px;
+    background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#mylogo .nav-item{
+    text-align: center !important;
+  
+ }
+ .navbar .navbar-brand{
+     padding-right: 20%;
+ }
+
+ #mylogo .nav-item a{
+    font-size: 18px ;
+    font-weight: 400;
+    color: white;
+ }
+ #mylogo .nav-item a:last-child:hover {
+    color:var(--secondarycouler);
+    transition: 500ms;
+  }
+#mylogo .btn {
+   border: none;
+color: var(--secondarycouler);
+box-shadow: 10px 10px 5px 0px rgba(222,213,213,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(222,213,213,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(222,213,213,0.75);
+
+}
+#mylogo .btn:hover{
+    background-color: var(--primarycolor);
+   transition: 500ms;
+   border: 1px solid #fec600;
+}
+/* header section start hear */
+#header h3{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+   padding-top: 140px;
+}
+#header h3:hover{
+    color: var(--secondarycouler);
+}
+#header h1{
+    font-size: 55px;
+    color: var(--secondarycouler);
+    padding: 10px 0px;
+    text-align: center;
+}
+#header p{
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin-left: 120px;
+}
+#header span  a{
+    background-color:var(--secondarycouler);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    transition: 1s;
+    
+    border-radius: 30px;
+margin-left: 600px; 
+}
+#header a:hover{
+      background-color: white;
+    color: var(--primarycolor);
+    transform: 1s;
+    border: 1px solid black;
+}
+/* header section end hear */
+/* about section start hear */
+#about{
+    padding: 20px 0px;
+}
+#about h3{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+
+}
+#about p{
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+ margin: auto;
+ padding-bottom: 30px;
+}
+#about .aboutcard{
+    width: 380px;
+    height: 210px;
+    background-color: var(--threecouler);
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+#about .aboutcard h6{
+font-size: 18px;
+margin-top: 30px;
+padding: 30px 0px;
+}
+#about .aboutcard p{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#about .aboutcardone{
+    width: 380px;
+    height: 210px;
+    background-color: var(--threecouler);
+    text-align: center;
+    margin: 100px 0px;
+    box-sizing: border-box;
+}
+#about .aboutcardone h6{
+    font-size: 18px;
+margin-top: 30px;
+padding: 30px 0px;
+margin-left: 0px;
+}
+#about .aboutcardone p{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#about .aboutcardtwo img{
+    display: inline-block;
+    width: 100%;
+   margin-left: 50px;
+   margin-left: 50px;
+   margin-bottom: 50px;
+}
+#about .aboutcardthree{
+    width: 380px;
+    height: 210px;
+    background-color: var(--threecouler);
+    text-align: center;
+   margin: 100px 50px;
+    box-sizing: border-box;
+}
+#about .aboutcardthree h6{
+    font-size: 18px;
+margin-top: 30px;
+padding: 30px 0px;
+margin-left: 0px;
+}
+#about .aboutcardthree p{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#about .aboutcardfour{
+    width: 380px;
+    height: 210px;
+    background-color: var(--threecouler);
+    text-align: center;
+   margin: auto;
+    box-sizing: border-box;
+}
+#about .aboutcardfour h6{
+    font-size: 18px;
+margin-top: 30px;
+padding: 30px 0px;
+margin-left: 0px;
+}
+#about .aboutcardfour p{
+    width: 90%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* about section end hear */
+/* portfolio section start  hear */
+#Portfolio{
+ background-image: url(../img/portfolio-bg-img.png);
+ height: 1050px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: white;
+   
+}
+#Portfolio h3{
+   font-size: 35px;
+padding-top: 100px;
+   text-align: center;
+   margin: auto;
+   padding-bottom: 20px;
+}
+#Portfolio p{
+font-size: 14px;
+margin: auto;
+width: 50%;
+text-align: center;
+padding-bottom: 50px;
+   
+}
+#portfolio .portfolioimg img{
+display: inline-block;
+width: 80%;
+
+}
+/* portfolio section ends hear  */
+/* service start hear */
+#services h3{
+    font-size: 35px;
+ padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ #services p{
+ font-size: 14px;
+ margin: auto;
+ width: 50%;
+ text-align: center;
+ padding-bottom: 50px;
+    
+ }
+ #services .serviceone {
+font-size: 18px;
+text-align: right;
+margin-bottom: 50px;
+
+ }
+ #services .servicetwo img{
+    display: inline-block;
+ 
+    margin-left: 200px;
+ }
+ #services .servicethree{
+    width: 400px;
+    height: 220px;
+    background-color: var(--threecouler);
+ }
+ #services .servicethree p{
+   width: 90%;
+   margin: 40px;
+   
+
+ }
+ #services h3{
+    font-size: 35px;
+ padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+ }
+ #services p{
+ font-size: 14px;
+ margin: auto;
+ width: 50%;
+ text-align: center;
+ padding-bottom: 50px;
+    
+ }
+ #services .serviceones {
+    width: 400px;
+    height: 220px;
+    background-color: var(--threecouler);
+     padding: 30px;
+ }
+ #services .servicetwos img{
+    display: inline-block;
+ margin-top: 150px;
+    margin-left: 210px;
+ }
+
+ #services .servicethrees p{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 150px;
+   
+
+ }
+ #services .serviceoner {
+    font-size: 18px;
+    text-align: right;
+   margin-top: 200px;
+    
+     }
+     #services .servicetwor img{
+        display: inline-block;
+     margin-top: 150px;
+        margin-left: 200px;
+     }
+     #services .servicethreer{
+        width: 400px;
+        height: 220px;
+        background-color: var(--threecouler);
+        margin-top: 80px;
+     }
+     #services .servicethreer p{
+       width: 90%;
+       margin: 40px;
+     }    
+/* service ends hear */
+/* blog section start hear  */
+#blog{
+    background-image: url(../img/blog-bg-img.png);
+    height: 850px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ color: white;
+}
+#blog .blogimg ul li {
+   padding: 20px;
+
+}
+#blog .blogimg {
+    margin-top: 200px;
+}
+#blog span{
+    font-size: 30px;
+    margin-left: 80px;
+}
+#blog .blogtext{
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    background-color: var(--threecouler);
+    color: var(--primarycolor);
+    padding: 50px;
+}
+
+/* blog section ends hear */
+/* plan section start hear  */
+#plan{
+    padding: 50px 0px;
+}
+
+#plan .plans{
+    width: 33.33%;
+    height: 450px;
+ background-color: var(--threecouler);
+
+
+}
+#plan .plans h6{
+width: 100%;
+height: 200px;
+background-color: var(--primarycolor);
+color: white;
+text-align: center;
+padding-top: 50px;
+font-size: 20px;
+clip-path: polygon(0 0, 100% 0, 100% 35%, 0 64%);
+}
+#plan .plans h5{
+    font-size: 29px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--primarycolor);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+   margin-left: 150px;
+   margin-top: -110px;
+}
+#plan .plans ul li{
+    font-size: 14px;
+    padding: 8px 100px;
+}
+#plan .plans p{
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+   background-color: var(--primarycolor);
+   color: white;
+   text-align: center;
+   clip-path: polygon(0 66%, 100% 35%, 100% 100%, 0 100%);
+line-height: 160px;
+}
+#plan .planer h6{
+background-color: var(--secondarycouler);
+}
+#plan .planer p{
+    background-color: var(--secondarycouler);
+}
+#plan .planer h5{
+    background-color: var(--secondarycouler);
+}
+
+/* plan section ends hear */
+/* clients section start hear  */
+#clients{
+  background-image: url(../img/man-img-01.png);
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  color: var(--threecouler);
+}
+#clients .clientscard{
+    margin-top:200px;
+    width: 200px;
+    height: 100px;
+   border: 1px solid white;
+ margin-left: 50px;
+}
+#clients .clientscard h5{
+    font-size: 30px;
+    text-align: center;
+}
+#clients .clientscard p{
+    font-size: 20px;
+    text-align: center;
+}
+#clients:hover h5{
+color: #fec600;
+}
+/* clients section ends hear */
+/* team section start hear  */
+#team{
+    padding: 50px 0px;
+
+}
+#team h4{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center; 
+}
+#team .teamimg{
+   width: 270px;
+   height: 400px;
+   border: 1px solid black;
+   margin-left: 50px;
+}
+#team .teamimg h3{
+    font-size: 20px;
+    text-align: center;
+}
+#team .teamimg p{
+    font-size: 14px;
+    text-align: center;
+}
+#team .teamimg ul li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+#team .teamimg:hover h3,li{
+    color: var(--secondarycouler);
+}
+/* team section ends hear */
+/* our section start hear */
+#our{
+
+   
+
+padding: 50px ;
+
+}
+#our .ourimg{
+    margin-left: 40px;
+}
+/* our section ends hear */
+/* footer section start hear */
+footer{
+   background-image: url(../img/footar-imh-bg.png);
+   height: 550px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   width: 100%;
+
+}
+footer .footer a{
+display: inline-block;
+text-align: center;
+margin-top: 100px;
+margin-left: 600px;
+padding-bottom: 100px;
+
+}
+footer .footercard span{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondarycouler);
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+   margin: auto;
+   text-align: center;
+
+    
+}
+footer .footercard p{
+    text-align: center;
+    width: 80%;
+    padding: 30px 0px;
+}
+footer .footercard {
+    border-left: 1px solid white;
+}
+footer .fot{
+    border: none;
+}
+footer h5{
+    text-align: center;
+    padding: 30px 0px ;
+}
+footer ul li{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 0px 22px;
+}
+footer ul li a{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+  padding-left: 200px;
+  color: white;
+    
+}
+footer ul li a:hover{
+    color: var(--secondarycouler);
+    transition: 1s;
+}
+#copy{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: var(--primarycolor);
+}
+#copy .copytext{
+    text-align: center;
+    line-height: 50px;
+}
+#copy .copytext span{
+    color: var(--secondarycouler);
+}
+/* footer section ends hear */
